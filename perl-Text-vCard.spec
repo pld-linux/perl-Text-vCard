@@ -9,15 +9,13 @@
 Summary:	perl(Text::vCard) module
 Name:		perl-Text-vCard
 Version:	1.98
-Release:	0.1
-# note if it is "same as perl"
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+Release:	0.2
+# "same as perl"
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2ecefb3c7c6ac62bf5fc56aa35fc6d63
-Patch0:		%{name}
-# most of CPAN modules have generic URL (substitute pdir and pnam here)
-#URL:		http://search.cpan.org/dist/%{pdir}-%{pnam}
+URL:		http://search.cpan.org/dist/Text-vCard
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 #BuildRequires:	-
@@ -25,25 +23,15 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-File-Slurp
 BuildRequires:	perl-Text-vFile-asData
 %endif
-#Requires:	-
-#Provides:	-
-#Obsoletes:	-
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-#%define		_noautoreq	'perl(anything_fake_or_conditional)'
 
 %description 
---RAW--
-A vCard is an electronic business card.
-This package is for a single vCard (person / record / set of address
-information).  It provides an API to editing and creating vCards, or supplied a
-specific piece of the Text::vFile::asData results it generates a vCard with
-that content.  
-This package provides an API to reading / editing and creating multiple vCards. A vCard is an electronic business card.  
-This package has been developed based on rfc2426.  
-You will find that many applications (Apple Address book, MS Outlook, Evolution etc) can export and import vCards.
-
+This perl module implements interface for both single vcard (Text::vCard) and addressbook
+(Text::vCard::Addressbook). vCard is an electronic business card. You will
+find that many applications (Apple Address book, MS Outlook, Evolution etc) can
+export and import vCards.  This package has been developed based on rfc2426.  
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

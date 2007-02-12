@@ -7,7 +7,7 @@
 %define		pdir	Text
 %define		pnam	vCard
 Summary:	Text::vCard - module to edit and create a single vCard (RFC 2426)
-Summary(pl):	Text::vCard - modu³ do edycji i tworzenia pojedynczych vCardów (RFC 2426)
+Summary(pl.UTF-8):   Text::vCard - moduÅ‚ do edycji i tworzenia pojedynczych vCardÃ³w (RFC 2426)
 Name:		perl-Text-vCard
 Version:	2.00
 Release:	1
@@ -33,12 +33,12 @@ electronic business card. You will find that many applications (Apple
 Address Book, MS Outlook, Evolution etc) can export and import vCards.
 This package has been developed based on RFC 2426.  
 
-%description -l pl
-Ten modu³ Perla implementuje interfejs do pojedynczych vcardów
-(Text::vCard) oraz ksi±¿ek adresowych (Text::vCard::Addressbook).
-vCard to elektroniczna wizytówka. Jest wiele aplikacji (Apple Address
-Book, MS Outlook, Evolution itp.) potrafi±cych eksportowaæ i
-importowaæ vCardy. Ten pakiet zosta³ stworzony w oparciu o RFC 2426.
+%description -l pl.UTF-8
+Ten moduÅ‚ Perla implementuje interfejs do pojedynczych vcardÃ³w
+(Text::vCard) oraz ksiÄ…Å¼ek adresowych (Text::vCard::Addressbook).
+vCard to elektroniczna wizytÃ³wka. Jest wiele aplikacji (Apple Address
+Book, MS Outlook, Evolution itp.) potrafiÄ…cych eksportowaÄ‡ i
+importowaÄ‡ vCardy. Ten pakiet zostaÅ‚ stworzony w oparciu o RFC 2426.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

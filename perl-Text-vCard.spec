@@ -7,7 +7,7 @@
 %define		pdir	Text
 %define		pnam	vCard
 Summary:	Text::vCard - module to edit and create a single vCard (RFC 2426)
-Summary(pl.UTF-8):   Text::vCard - moduł do edycji i tworzenia pojedynczych vCardów (RFC 2426)
+Summary(pl.UTF-8):	Text::vCard - moduł do edycji i tworzenia pojedynczych vCardów (RFC 2426)
 Name:		perl-Text-vCard
 Version:	2.00
 Release:	1

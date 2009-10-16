@@ -9,13 +9,13 @@
 Summary:	Text::vCard - module to edit and create a single vCard (RFC 2426)
 Summary(pl.UTF-8):	Text::vCard - moduł do edycji i tworzenia pojedynczych vCardów (RFC 2426)
 Name:		perl-Text-vCard
-Version:	2.01
+Version:	2.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	18f1fae159e422d41b93038402cb859c
+# Source0-md5:	6387cf1564bc548bf75ddc6a09f27047
 URL:		http://search.cpan.org/dist/Text-vCard/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13

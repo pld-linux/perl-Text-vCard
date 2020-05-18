@@ -20,9 +20,14 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with autodeps} || %{with tests}
 BuildRequires:	perl-Class-Accessor-Chained
+BuildRequires:	perl-Directory-Scratch
 BuildRequires:	perl-File-Slurp
+BuildRequires:	perl-Moo
 BuildRequires:	perl-Path-Tiny
+BuildRequires:	perl-Test-Differences
+BuildRequires:	perl-Test-Most
 BuildRequires:	perl-Text-vFile-asData
+BuildRequires:	perl-Unicode-LineBreak
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
